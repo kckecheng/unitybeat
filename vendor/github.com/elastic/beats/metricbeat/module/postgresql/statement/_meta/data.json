@@ -1,0 +1,64 @@
+{
+    "@timestamp": "2017-10-12T08:05:34.853Z",
+    "beat": {
+        "hostname": "host.example.com",
+        "name": "host.example.com"
+    },
+    "metricset": {
+        "host": "postgresql:5432",
+        "module": "postgresql",
+        "name": "statement",
+        "rtt": 115
+    },
+    "postgresql": {
+        "statement": {
+            "user": {
+                "id": 10
+            },
+            "database": {
+                "oid": 175251
+            },
+            "query": {
+                "text": "ROLLBACK",
+                "memory": {
+                  "shared": {
+                    "hit": 0,
+                    "read": 0,
+                    "dirtied": 0,
+                    "written": 0
+                  },
+                  "temp": {
+                    "read": 0,
+                    "written": 0
+                  },
+                  "local": {
+                    "hit": 0,
+                    "read": 0,
+                    "dirtied": 0,
+                    "written": 0
+                  }
+                },
+                "id": "961354038",
+                "rows": 0,
+                "time": {
+                  "min": {
+                    "ms": 0
+                  },
+                  "total": {
+                    "ms": 0.02900000000000002
+                  },
+                  "stddev": {
+                    "ms": 0.0003768830273792263
+                  },
+                  "max": {
+                    "ms": 0.001
+                  },
+                  "mean": {
+                    "ms": 0.0008285714285714287
+                  }
+                },
+                "calls": 35
+            }
+        }
+    }
+}
